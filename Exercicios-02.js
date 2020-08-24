@@ -107,8 +107,8 @@ function retornandoArgumentos(a, b, c){
 		return false;
 	}
 	else{
-		return null;
-	}
+		return null
+;	}
 }
 
 // Invoque a função acima utilizando todas as possibilidades
