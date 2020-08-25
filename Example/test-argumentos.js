@@ -17,5 +17,5 @@ function teste(a, b, c) {
 console.log(teste(1, 2, 3));
 console.log(teste(2, 3));
 console.log(teste(3));
-console.log(teste());
 console.log(teste(1, 0, 2));
+console.log(teste());
