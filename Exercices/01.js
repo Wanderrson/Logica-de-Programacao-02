@@ -4,7 +4,7 @@ let myvar;
 
 // Após declarada, atribua o valor 10 à variável `myvar`.
 
-let myvar = 10;
+myvar = 10;
 
 // Declare uma nova variável chamada `soma`, e adicione uma instrução somando os valores 15 e 8.
 
@@ -18,42 +18,47 @@ soma++;
 
 // Atribua à variável `soma` todo o valor dela, multiplicando por 3, usando o operador de multiplicação abreviado.
 
-//let soma = soma * 3;
-let soma *= 3;
+// soma = soma * 3;
+soma *= 3;
 
 // Qual é o valor da variável `soma` até aqui?
 
-console.log(soma)
-R = 72;
+console.log(soma);
+// R = 72;
 
 // Declare uma variável chamada `souninja`, atribuindo à ela o valor booleano que representa `verdadeiro`.
 
-let souninja = true;
+const souninja = true;
+// let souninja = true;
+// var souninja = true;
 
 // Declare uma variável chamada `comida` que recebe um array com os valores 'arroz', 'feijão' e 'ovo'.
 
-let comida = ['arroz', 'feijão','ovo']
+const comida = ["arroz", "feijão", "ovo"];
 
 // Digite a instrução que imprime o valor de 'feijao', que está na variável `comida`.
 
 console.log(comida[1]);
 
 // Digite o código que verifica se a variável `soma' é igual a variável `myvar` (testando também o tipo).
+// '1' != 1
 
-if(soma === myvar){
-	console.log("ok sao iguais em valor e tipo")
-}else{
-	console.log("Nao sao igual em valor ou tipo")
+if (soma === myvar) {
+  console.log("ok sao iguais em valor e tipo");
+} else {
+  console.log("Nao sao igual em valor ou tipo");
 }
 // Digite o código que verifica se a variável `myvar` é menor ou igual à variável `soma`.
 
-soma <= myvar
+console.log("Soma é Menor que Myvar? : ", soma <= myvar);
+console.log("Soma é Menor que Myvar? : " + (soma <= myvar));
 
-// Crie uma função chamada `divisao` que receba como parâmetro dois números, 
+// Crie uma função chamada `divisao` que receba como parâmetro dois números,
 // e retorne o resultado da divisão entre eles.
 
-function divisao(a,b){
-	return a/b;
+function divisao(a, b) {
+  return a / b;
 }
+
 // Invoque a função criada acima, passando os parâmetros 10 e 2.
 console.log("10 / 5 : ", divisao(10, 5));
